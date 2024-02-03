@@ -3,9 +3,20 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "npx expo start",
+    "android": "npx expo android",
+    "ios": "npx expo ios"
   },
   "dependencies": {
-    "react-native": "0.73.3"
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "expo": "^50.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.73.2",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "expo-cli": "^6.3.10"
   }
 }

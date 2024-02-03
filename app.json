@@ -1,0 +1,36 @@
+{
+    "expo": {
+      "name": "NombreDeTuApp",
+      "slug": "NombreDeTuApp",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./path/to/app-icon.png",
+      "splash": {
+        "image": "./path/to/splash.jpg",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": ["**/*"],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./path/to/foreground-image.jpg",
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "web": {
+        "favicon": "./path/to/favicon.png"
+      },
+      "description": "Descripción de tu aplicación",
+      "scheme": "myapp",
+      "extra": {
+        "apiKey": "valor-secreto"
+      }
+    }
+  }
+  
